@@ -60,4 +60,7 @@ Mescla de branchs no repositório
 Permite code review
 O respositório resolve os conflitos automaticamente
 
-# testando
+
+### configura o GitFlow
+> git flow init
+> git flow feature start {nome-da-feature}
