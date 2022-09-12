@@ -1,0 +1,58 @@
+* {
+box-sizing: border-box;
+ 
+}
+
+body {
+    background-color: whitesmoke;
+
+}
+
+header{
+    background-color: #034589;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    box-sizing: table;
+    color: white;
+}
+
+article{
+    float: left;
+    width: 70%;
+    background-color: whitesmoke; 
+}
+
+footer {
+    text-align: center;
+    height: 1.5rem;
+    padding: 1.0rem;
+    margin: 1.0rem;
+    display: inline;
+
+}
+
+.textofooter  {
+ box-sizing: content-box;
+ background-color: #034589;
+ color: white;
+ padding: 0;
+ margin: 0;
+}
+
+.botao {
+    width: 50%;
+}
+
