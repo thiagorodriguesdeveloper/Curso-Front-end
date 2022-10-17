@@ -1,0 +1,145 @@
+* {
+
+}
+
+html {
+font-size: 62.5%;  /* Padrão de tamanho de fonte para utilizar com REM */
+}
+
+body {
+background-color: #fff;
+font-family: 'Open Sans', sans-serif; /* Fonte importada pelo google fonts direto no html */
+ 
+}
+
+.main-container {   /* Div colocada englobando todo o body para formatar o layout da pagina com o css */
+background-color: #fff;
+max-width: 86vw;
+margin: 0 auto;
+
+}   
+
+.container {
+padding: 20px;
+width: 100%;
+margin: 0 auto;
+display: block;
+float: left;
+max-width: 1198px;
+}
+
+
+header {
+display: block;
+float: left;
+width: 100%;
+background: #fff;
+padding: 20px;
+border-bottom: 1px solid #254159;
+}
+
+
+section {
+font-size: 1.5rem; /* equivalente a 15px */
+width: 100%;
+padding: 20px;    
+background-color: #fff;    
+}
+
+h1 {
+font-size: 2.4rem;
+color: #254159;
+margin-bottom: 20px;
+}
+
+h2 {
+font-size: 2.0rem;
+color: #254159;
+margin-bottom: 20px;
+}
+
+h3 {
+font-size: 1.8rem;
+color: #254159;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+
+h4 {
+font-size: 1.6rem;
+color: #3b5a75;
+margin-bottom: 10px;
+padding-top: 10px;
+}
+
+p {
+margin-bottom: 10px;
+line-height: 1.4;   /* utilizando line-height para definir o espaçamento entre linhas */    
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+ol {
+margin-left:  20px;
+color: #454545;
+
+}
+
+ol li {
+font-size: 1.4rem;
+color: #454545;
+
+}
+
+nav li {
+margin: 1px 20px 1px 0px;
+padding: 10px;
+}
+
+nav li:hover {
+background-color: #dfdfdf;    
+}
+
+nav a {
+text-decoration: none;
+color: #254159;    
+}
+
+nav a:hover {
+color: #385874;    
+}
+section nav {    /* utilizando o display block e float left para separar o layout com width */
+display: block;
+float: left;
+width: 30%;
+}
+
+section article {   /* utilizando o display block e float left para separar o layout com width */
+
+display: block;
+float: left;
+width: 70%;   
+}
+
+footer {
+background-color: #254159;
+color: #fff;
+float: left;
+width: 100%;    
+}
+
+footer p {
+background-color: #fff;
+font-size: 1.4rem;
+}
+
+footer small {
+font-size: 80%;
+display: block;
+}
+
+
